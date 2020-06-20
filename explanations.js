@@ -24,5 +24,13 @@ var area = function (x,y) {
 }
 
 
+// if else
+
+if (true) {
+    alert("male");
+    };
+
+// and &&
+// or ||
 
 
