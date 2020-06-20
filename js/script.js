@@ -24,6 +24,10 @@
 				}
 			}
 		};
+
+		var doCoolStuff = function() {
+			document.getElementById("cool").className = "cool red";
+		}
 		
 
 		console.log("hello friends");
