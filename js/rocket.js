@@ -8,7 +8,11 @@ var changeState = function(state) {
 	document.getElementById("countdown").innerHTML = countdownNumber;
 
 	// count down
-	if (state == 2) {
+	if (state == 1) {
+		countdownNumber = 10;
+	}
+
+	else if (state == 2) {
 		countdownNumber = 10;
 
 		timer = setInterval(function () {
