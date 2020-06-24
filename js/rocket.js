@@ -8,7 +8,11 @@ var changeState = function(state) {
 	document.getElementById("countdown").innerHTML = countdownNumber;
 
 	// count down
-	if (state == 2) {
+	if (state == 1) {
+		countdownNumber = 10;
+	}
+
+	else if (state == 2) {
 		countdownNumber = 10;
 
 		timer = setInterval(function () {
@@ -33,12 +37,14 @@ var changeState = function(state) {
 	} 
 
 	else if (state == 3) {
+		countdownNumber = 10;
+
 		var success = setTimeout(function () {
 			var randomNumber = Math.round(Math.random()*10);
 
 			console.log("random number " + randomNumber)
 			// success
-			if (randomNumber > 3) {
+			if (randomNumber > 5) {
 				changeState(4)
 			}
 			// fail
