@@ -33,7 +33,7 @@ var changeState = function(state) {
 			if (countdownNumber <= 0) {
 				changeState(3)
 			};
-		}, 500);
+		}, 300);
 	} 
 
 	else if (state == 3) {
