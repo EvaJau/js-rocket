@@ -42,7 +42,7 @@ var changeState = function(state) {
 
 			console.log("random number " + randomNumber)
 			// success
-			if (randomNumber > 3) {
+			if (randomNumber > 5) {
 				changeState(4)
 			}
 			// fail
